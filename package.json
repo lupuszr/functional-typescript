@@ -1,0 +1,26 @@
+{
+  "name": "ts_playground",
+  "version": "0.0.1",
+  "description": "Functional programing in typescript, functors, aplicatives & monads",
+  "main": "index.js",
+  "scripts": {
+    "rebuild": "rm -rf ts-built/ && ./node_modules/.bin/tsc",
+    "test": "jest"
+  },
+  "author": "vikpelle@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/jest": "^24.0.11",
+    "babel-jest": "^24.7.1",
+    "jest": "^24.7.1",
+    "ts-jest": "^24.0.1",
+    "typescript": "^3.3.4000"
+  },
+  "dependencies": {
+    "daggy": "^1.4.0",
+    "ramda.curry": "^0.26.1"
+  }
+}
